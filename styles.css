@@ -4,3 +4,10 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
+body {
+  background: #0f172a;
+  color: #94a3b8;
+
+  padding: 1rem;
+}
