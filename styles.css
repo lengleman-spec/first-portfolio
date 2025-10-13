@@ -13,7 +13,24 @@
 body {
   background: #0f172a;
   color: #94a3b8;
-  padding: 1rem;
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 6rem;
+}
+
+.underlay {
+  position: fixed;
+  background-color: #172554;
+  inset: 0; /*stretches div to all edges of page*/
+  opacity: 0.4;
+}
+
+header,
+main,
+footer {
+  position: relative;
+  z-index: 10;
 }
 
 header {
@@ -31,6 +48,7 @@ header h4,
 
 header a {
   text-decoration: none;
+  color: #94a3b8;
 }
 
 header h1 {
