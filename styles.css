@@ -19,10 +19,20 @@ body {
   gap: 6rem;
 }
 
-p,
-h2 {
+p {
   font-size: 0.9rem;
   line-height: 1.5rem;
+}
+/*::selection styles the portion of text that a user highlights */
+p::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection {
+  background: var(--color-accent);
+  color: #0f172a;
 }
 
 .underlay {
@@ -91,6 +101,7 @@ section h2 {
 
 .anchor-text {
   color: var(--color-highlight);
+  text-decoration: none;
 }
 
 .anchor-text:hover {
