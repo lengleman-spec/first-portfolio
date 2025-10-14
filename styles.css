@@ -110,7 +110,13 @@ section h2 {
 }
 
 .experience-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-card {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 0.5rem;
 }
