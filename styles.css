@@ -108,3 +108,9 @@ section h2 {
 .anchor-text:hover {
   color: var(--color-accent);
 }
+
+.experience-content {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+}
