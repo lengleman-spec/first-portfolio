@@ -116,7 +116,7 @@ section h2 {
 .experience-content {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .experience-card {
