@@ -187,3 +187,10 @@ section h2 {
   width: 100%;
   height: 100%;
 }
+
+.projects-stat-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
