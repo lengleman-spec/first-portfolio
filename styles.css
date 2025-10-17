@@ -197,4 +197,31 @@ section h2 {
 
 .projects-archive-link {
   position: relative;
+  color: var(--color-highlight);
+  text-decoration: none;
+  transition-duration: 200ms;
+  margin-right: auto;
+}
+
+.projects-archive-link span {
+  transition-duration: 200ms;
+}
+
+.projects-archive-link:hover span {
+  padding-left: 0.5rem;
+}
+
+.projects-archive-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  bottom: 0;
+  background: transparent;
+  transition-duration: 200ms;
+}
+
+.projects-archive-link:hover::after {
+  background: var(--color-accent);
 }
