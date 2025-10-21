@@ -1,6 +1,7 @@
 :root {
   --color-accent: #5eead4;
   --color-highlight: #e2e8f0;
+  --background-accent: rgba(45, 212, 191, 0.2);
 }
 
 /* Ensures whenever we have automatic scrolling (like the up button at bottom of page), it will scroll smoothly up */
@@ -189,7 +190,7 @@ section h2 {
 }
 
 .tag {
-  background: rgba(45, 212, 191, 0.2);
+  background: var(--background-accent);
   padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
 }
@@ -250,4 +251,28 @@ section h2 {
 
 .projects-archive-link:hover::after {
   background: var(--color-accent);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+.scroll-to-top {
+  text-decoration: none;
+  color: var(--color-accent);
+  background: var(--background-accent);
+  padding: 0 0.75rem;
+  aspect-ratio: 1/1;
+  display: grid;
+  place-items: center;
+  /*border-radius: 100% = circle
+    overflow:hidden = hides any part of background that overflows past the border radius, creating a circle*/
+  border-radius: 100%;
+  overflow: hidden;
 }
