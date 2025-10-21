@@ -110,6 +110,7 @@ section h2 {
   inset: 0;
   /*Inset (above) is saying 'set yourself in 0px from the border'. It occupies the exact same dimensions as the parent element*/
   background: #101a31;
+  opacity: 0.8;
 }
 
 .about-contents {
