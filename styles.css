@@ -255,6 +255,8 @@ section h2 {
 
 footer {
   display: flex;
+  flex-direction: column;
+  gap: 2rem;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -275,4 +277,9 @@ footer p {
     overflow:hidden = hides any part of background that overflows past the border radius, creating a circle*/
   border-radius: 100%;
   overflow: hidden;
+  transition-duration: 200ms;
+}
+
+.scroll-to-top:hover {
+  opacity: 0.6;
 }
