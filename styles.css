@@ -3,6 +3,11 @@
   --color-highlight: #e2e8f0;
 }
 
+/* Ensures whenever we have automatic scrolling (like the up button at bottom of page), it will scroll smoothly up */
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
