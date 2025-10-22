@@ -76,6 +76,14 @@ header h1 {
   font-weight: 600;
 }
 
+nav {
+  display: none;
+}
+
+nav a {
+  font-size: 0.9rem;
+}
+
 header h4 {
   font-weight: 400;
 }
@@ -282,4 +290,11 @@ footer p {
 
 .scroll-to-top:hover {
   opacity: 0.6;
+}
+
+/* Media Queries */
+
+@media (min-width: 640px) {
+}
+@media (min-width: 1024px) {
 }
