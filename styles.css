@@ -312,6 +312,14 @@ footer p {
 /* Media Queries */
 
 @media (min-width: 640px) {
+  .projects-card,
+  .experience-card {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .card-column {
+    grid-column: span 3 / span 3;
+  }
 }
 @media (min-width: 1024px) {
 }
