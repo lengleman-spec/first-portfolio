@@ -84,10 +84,17 @@ nav a {
   font-size: 0.9rem;
 }
 
+.social-link-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .social-link {
   font-size: 1.2rem;
   color: inherit;
   text-decoration: none;
+  transition-duration: 200ms;
 }
 
 .social-link:hover {
