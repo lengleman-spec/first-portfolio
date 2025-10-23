@@ -338,7 +338,8 @@ footer p {
     position: sticky;
     top: 0;
     margin-left: auto;
-    height: fit-content;
+    height: 100vh;
+    padding-bottom: 6rem;
   }
 
   header h1 {
@@ -356,6 +357,20 @@ footer p {
   nav {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  .social-link-container {
+    gap: 1.5rem;
+  }
+
+  .social-link-container i {
+    font-size: 2rem;
   }
 
   header,
