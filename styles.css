@@ -322,4 +322,16 @@ footer p {
   }
 }
 @media (min-width: 1024px) {
+  body {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+  }
+
+  .sticky-header {
+    display: none;
+  }
 }
