@@ -341,6 +341,18 @@ footer p {
     height: fit-content;
   }
 
+  header h1 {
+    font-size: 3rem;
+  }
+
+  header h4 {
+    font-size: 1.4rem;
+  }
+
+  header p {
+    max-width: 300px;
+  }
+
   nav {
     display: flex;
     flex-direction: column;
