@@ -324,14 +324,36 @@ footer p {
 @media (min-width: 1024px) {
   body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    padding: 6rem;
   }
 
   header {
     position: sticky;
     top: 0;
+    margin-left: auto;
+    height: fit-content;
+  }
+
+  header,
+  main {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  main {
+    margin-left: auto;
   }
 
   .sticky-header {
     display: none;
+  }
+
+  footer {
+    grid-column: span 2 / span 2;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
   }
 }
