@@ -320,12 +320,18 @@ footer p {
   .card-column {
     grid-column: span 3 / span 3;
   }
+
+  .projects-image-container {
+    order: 0;
+  }
 }
+
 @media (min-width: 1024px) {
   body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
     padding: 6rem;
+    padding-top: 0;
   }
 
   header {
@@ -335,10 +341,16 @@ footer p {
     height: fit-content;
   }
 
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
   header,
   main {
     max-width: 600px;
     width: 100%;
+    padding-top: 6rem;
   }
 
   main {
